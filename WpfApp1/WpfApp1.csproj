@@ -258,6 +258,12 @@
     <Compile Include="UserControlAssignCourse.xaml.cs">
       <DependentUpon>UserControlAssignCourse.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlDeleteAssignedCourse.xaml.cs">
+      <DependentUpon>UserControlDeleteAssignedCourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDeleteCourse.xaml.cs">
+      <DependentUpon>UserControlDeleteCourse.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlDeleteCustomer.xaml.cs">
       <DependentUpon>UserControlDeleteCustomer.xaml</DependentUpon>
     </Compile>
@@ -267,14 +273,26 @@
     <Compile Include="UserControlDisplayAll.xaml.cs">
       <DependentUpon>UserControlDisplayAll.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlDisplayAssignedCourses.xaml.cs">
+      <DependentUpon>UserControlDisplayAssignedCourses.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlDisplayCustomer.xaml.cs">
       <DependentUpon>UserControlDisplayCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDisplayRegisteredCourses.xaml.cs">
+      <DependentUpon>UserControlDisplayRegisteredCourses.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlEmployees.xaml.cs">
       <DependentUpon>UserControlEmployees.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlMenuItem.xaml.cs">
       <DependentUpon>UserControlMenuItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlUpdateAssignedCourse.xaml.cs">
+      <DependentUpon>UserControlUpdateAssignedCourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlUpdateCourse.xaml.cs">
+      <DependentUpon>UserControlUpdateCourse.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlUpdateCustomer.xaml.cs">
       <DependentUpon>UserControlUpdateCustomer.xaml</DependentUpon>
@@ -319,6 +337,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControlDeleteAssignedCourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlDeleteCourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlDeleteCustomer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -331,7 +357,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="UserControlDisplayAssignedCourses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlDisplayCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlDisplayRegisteredCourses.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -342,6 +376,14 @@
     <Page Include="UserControlMenuItem.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControlUpdateAssignedCourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlUpdateCourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlUpdateCustomer.xaml">
       <SubType>Designer</SubType>

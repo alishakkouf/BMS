@@ -39,13 +39,20 @@ namespace WpfApp1
                 var menuSchedule = new List<SubItem>();
                 menuSchedule.Add(new SubItem("Add Course",new UserControlAddCourse()));
                 menuSchedule.Add(new SubItem("Assign Course", new UserControlAssignCourse()));
-                var item1 = new ItemMenu("Courses", menuSchedule, PackIconKind.Schedule);
+            menuSchedule.Add(new SubItem("Display Registered Courses", new UserControlDisplayRegisteredCourses()));
+            menuSchedule.Add(new SubItem("Display Assigned Courses", new UserControlDisplayAssignedCourses()));
+            menuSchedule.Add(new SubItem("Update Course", new UserControlUpdateCourse()));
+            menuSchedule.Add(new SubItem("Delete Course", new UserControlDeleteCourse()));
+            menuSchedule.Add(new SubItem("Update Assigned Course", new UserControlUpdateAssignedCourse()));
+            menuSchedule.Add(new SubItem("Delete Assigned Course", new UserControlDeleteAssignedCourse()));
+            var item1 = new ItemMenu("Courses", menuSchedule, PackIconKind.Schedule);
 
                 var menuReports = new List<SubItem>();
                 menuReports.Add(new SubItem("Add Customer" , new UserControlAddCustomer()));
                 menuReports.Add(new SubItem("Delete Customer" , new UserControlDeleteCustomer()));
                 menuReports.Add(new SubItem("Update Customer", new UserControlUpdateCustomer()));
-                menuReports.Add(new SubItem("Display Customer" , new UserControlDisplayCustomer()));
+            menuReports.Add(new SubItem("Update Customer", new UserControlUpdateCustomer()));
+            menuReports.Add(new SubItem("Display Customer" , new UserControlDisplayCustomer()));
                 var item2 = new ItemMenu("Customers", menuReports, PackIconKind.FileReport);
 
                 var menuExpenses = new List<SubItem>();
