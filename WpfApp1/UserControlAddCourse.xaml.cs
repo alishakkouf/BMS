@@ -30,6 +30,28 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //try
+            //{
+
+
+            //Course course = new Course();
+
+            //course.title = Coursetitle.Text;
+            //course.Type = CourseType.SelectedValue.ToString();
+            //course.Notes = Notes.Text;
+
+
+
+            //    financialContext context = new financialContext();
+            //    context.Course.Add(course);
+            //    context.SaveChanges();
+            //}
+            //catch (Exception)
+            //{
+
+            //    throw;
+            //}
+            //}
 
         }
     }
