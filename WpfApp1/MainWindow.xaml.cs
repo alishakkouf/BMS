@@ -56,9 +56,11 @@ namespace WpfApp1
                 var item2 = new ItemMenu("Customers", menuReports, PackIconKind.FileReport);
 
                 var menuExpenses = new List<SubItem>();
-                menuExpenses.Add(new SubItem("Fixed"));
-                menuExpenses.Add(new SubItem("Variable"));
-                var item3 = new ItemMenu("Expenses", menuExpenses, PackIconKind.ShoppingBasket);
+                menuExpenses.Add(new SubItem("Add Reward" , new UserControlAddRewards()));
+            menuExpenses.Add(new SubItem("Update Reward", new UserControlUpdateRewards()));
+            menuExpenses.Add(new SubItem("Delete Reward", new UserControlDeleteRewards()));
+            menuExpenses.Add(new SubItem("Display Rewards", new UserControlDisplayRewards()));
+            var item3 = new ItemMenu("Rewards", menuExpenses, PackIconKind.ShoppingBasket);
 
                 var menuFinancial = new List<SubItem>();
                 menuFinancial.Add(new SubItem("Cash flow"));

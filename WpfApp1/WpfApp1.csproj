@@ -255,6 +255,9 @@
     <Compile Include="UserControlAddProject.xaml.cs">
       <DependentUpon>UserControlAddProject.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlAddRewards.xaml.cs">
+      <DependentUpon>UserControlAddRewards.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlAssignCourse.xaml.cs">
       <DependentUpon>UserControlAssignCourse.xaml</DependentUpon>
     </Compile>
@@ -270,6 +273,9 @@
     <Compile Include="UserControlDeleteEmployees.xaml.cs">
       <DependentUpon>UserControlDeleteEmployees.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlDeleteRewards.xaml.cs">
+      <DependentUpon>UserControlDeleteRewards.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlDisplayAll.xaml.cs">
       <DependentUpon>UserControlDisplayAll.xaml</DependentUpon>
     </Compile>
@@ -281,6 +287,9 @@
     </Compile>
     <Compile Include="UserControlDisplayRegisteredCourses.xaml.cs">
       <DependentUpon>UserControlDisplayRegisteredCourses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDisplayRewards.xaml.cs">
+      <DependentUpon>UserControlDisplayRewards.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlEmployees.xaml.cs">
       <DependentUpon>UserControlEmployees.xaml</DependentUpon>
@@ -296,6 +305,9 @@
     </Compile>
     <Compile Include="UserControlUpdateCustomer.xaml.cs">
       <DependentUpon>UserControlUpdateCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlUpdateRewards.xaml.cs">
+      <DependentUpon>UserControlUpdateRewards.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\ItemMenu.cs" />
     <Compile Include="ViewModel\SubItem.cs" />
@@ -333,6 +345,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControlAddRewards.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlAssignCourse.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -353,6 +369,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="UserControlDeleteRewards.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlDisplayAll.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -366,6 +386,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlDisplayRegisteredCourses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlDisplayRewards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -386,6 +410,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlUpdateCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlUpdateRewards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
